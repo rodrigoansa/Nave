@@ -43,8 +43,9 @@ while True:
 
     
     #tela.blit(bg, (0, 0))
-    tela.blit(play1, (posx_play1, posy_play1))
     tela.blit(tiro, (posx_play1, posy_play1))
+    # tela.blit(play1, (posx_play1, posy_play1))
+    
   
     pygame.display.update()
 
